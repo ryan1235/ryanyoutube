@@ -1,2 +1,15 @@
 # ryanyoutube
+
 um site simples para estudos com as informações do meu youtube
+
+## Objetivos
+
+o objetivo com esse site é basicamente tentar fazer uma area de videos de forma simples e bonita para
+fis educativos
+
+## icones
+
+:heartbeat: Novas funcionalidades
+:warning: Atualizações
+:bangbang: correção de bugs
+:warning: releasse
