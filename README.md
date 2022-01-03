@@ -5,7 +5,7 @@ um site simples para estudos com as informações do meu youtube
 ## Objetivos
 
 o objetivo com esse site é basicamente tentar fazer uma area de videos de forma simples e bonita para
-fis educativos
+fins educativos
 
 ## icones
 
