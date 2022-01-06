@@ -1,45 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>RyanYT</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>RyanTube</title>
 </head>
-
 <body>
-    <div class="conteiner">
-        <header>
-            <div class="conteudo">
-                <h1>RyanLuca</h1>
-                <i class="fab fa-youtube"></i>
-            </div>
-        </header>
+    <header>
+        <i class="fa-brands fa-youtube-square"></i>
+        <h1>RyanTube</h1>
         <div class="menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">videos</a></li>
-                <li><a href="#">sobre</a></li>
-                <li><a href="#">contato</a></li>
-            </ul>
+            <a href="#">Inicio</a>
+            <a href="#">videos</a>
+            <a href="#">sobre mim</a>
         </div>
-        <div class="fundo">
-        <div class="back">
-            <video id="video" autoplay muted loop src="vid/videoplayback.mp4"></video>
-                <div class="discri">
-                    <div class="text"></div>
-                    <h2>ryan tube</h2>
-                    <br>
-                    <p>este site foi contruido com a intenção de estudar um pouco mais de front end usando html. css e js.</p>
-                    <br>
-                    <p>assista os videos mais importante do meu canal do youtube chamado pig_play apenas clincando no botão a baixo</p>
-                </div>
-                </div>
-                </div>
+    </header>
+    <main>
+        <section>
+            <video src="./vid/videoplayback.mp4" autoplay muted loop></video>
+            <div class="texto-main">
+                <h2>Ryan tube</h2>
+                <p>veja todos os videos do canal <strong>pig_Play</strong> canal feito pelo <strong>ryanluca</strong></p>
+                <button>Ver os videos</button>
             </div>
-        </div>
+        </section>
+    </main>
 </body>
-
 </html>
