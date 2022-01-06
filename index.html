@@ -28,8 +28,8 @@
         <i class="fa-brands fa-youtube-square"></i>
         <h1>RyanTube</h1>
         <div class="menu">
-            <a href="#">Inicio</a>
-            <a href="#">videos</a>
+            <a href="https://www.youtube.com/watch?v=kYXUgw27EqM">Inicio</a>
+            <a id="roll" href="#vid">videos</a>
             <a href="#">sobre mim</a>
         </div>
     </header>
@@ -43,7 +43,7 @@
                 <button>Ver os videos</button>
             </div>
         </section>
-        <section class="videos">
+        <section id="vid" class="videos">
             <h3>Principais videos</h3>
 
             <div class="videos-todos">
@@ -55,7 +55,7 @@
                     <h4>RAIDANDO 2 BASES NA BALA EXPLOSIVA NO VANILLA</h4>
                     <p>jogando rust e invadindo duas bases junto com alguns amigos</p>
                 </div>
-                <div class="video1">
+                <div  class="video1">
                     <div class="videos-img">
                         <img src="https://img.youtube.com/vi/opm0Xl9cZO8/mqdefault.jpg" alt="Thumbnail 2">
                         <h4>veja o video</h4>
@@ -74,10 +74,10 @@
             </div>
            <button><i class="fas fa-angle-double-right">mais videos</i></button>
         </section>
-    </main>
+    </main >
     <footer>
         <section>
-            <div class="rodape">
+            <div class="rodape" class="videos-todos" >
                 <div class="rodape_01">
                     <i class="fa-brands fa-youtube-square"></i>
                     <h4>ryantube</h4>
@@ -100,5 +100,7 @@
     </footer>
 </body>
 <script src="js/preloader.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/app.js"></script>
 
 </html>
