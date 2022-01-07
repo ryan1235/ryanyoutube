@@ -213,29 +213,29 @@ section video{
     width: auto;
     height: auto;
 }
-.videos-img h4{
+#teste{
     display: flex;
-
     position: absolute; 
     bottom: 0; 
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1; 
+    color: #ffffff; 
     width: 35%;
-    height: 40%;
-    padding: 18% 33%;
+    height: 5%;
+    margin-bottom: 0;
+    padding: 28% 33%;
     transition: .5s ease;
     opacity:0;
     color: white;
     font-size: 20px;
     text-align: center;
 }
-.videos-img h4:hover{
+#teste:hover{
     opacity: 1;
 }
 
 .text {
-    color: white;
+    color: rgb(248, 248, 248);
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -252,7 +252,7 @@ section video{
 .videos-todos p{
     color: white;
 }
-.video1{
+.video1 {
     width: auto;
     height: auto;
     display: flex;
@@ -263,7 +263,7 @@ section video{
     cursor: pointer;
 }
 
-.videos button{
+.videos a{
     background-color: red;
     font-size: 2rem;
     color: white;
@@ -274,7 +274,7 @@ section video{
     margin-bottom: 2rem;
     cursor: pointer;
 }
-.videos button:hover{
+.videos a:hover{
     opacity: .5;
 }
 
